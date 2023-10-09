@@ -1,7 +1,7 @@
 <h1>Nova Dúvida</h1>
 
 <x-alert>
-    Aqui posso passar conteudo;
+    {{-- Aqui posso passar conteudo; --}}
 </x-alert>
 
 <form action="{{ route('supports.store') }}" method="POST">
