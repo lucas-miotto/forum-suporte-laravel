@@ -5,6 +5,6 @@
 <form action="{{ route('supports.edit', $support->id) }}" method="POST">
     @method('PUT')
     @include('admin.supports.partials.form', [
-    'support' => $support
+        'support' => $support,
     ])
 </form>
