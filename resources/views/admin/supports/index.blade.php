@@ -1,4 +1,4 @@
-<h1>Teste de retorno da View</h1>
+<h1>Listagem dos Suportes</h1>
 <a href="{{ route('supports.create') }}">Criar Dúvida</a>
 
 <table>
