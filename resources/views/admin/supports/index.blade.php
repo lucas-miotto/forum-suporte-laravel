@@ -3,9 +3,8 @@
 @section('title', 'Fórum')
 
 @section('header')
-    <h1>Listagem dos Suportes</h1>
+    @include('admin.supports.partials.header', compact('supports'))
 @endsection
-
 
 @section('content')
     <a href="{{ route('supports.create') }}">Criar Dúvida</a>

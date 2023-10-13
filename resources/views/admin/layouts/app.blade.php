@@ -11,17 +11,20 @@
 </head>
 
 <body>
-    <header>
-        @yield('header')
-    </header>
 
-    <div class="content">
-        @yield('content')
-    </div>
+    <section class="container px-4 mx-auto">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            @yield('header')
+        </div>
 
-    <footer>
-        @yield('footer')
-    </footer>
+        <div class="content">
+            @yield('content')
+        </div>
+
+        <footer>
+            @yield('footer')
+        </footer>
+    </section>
 </body>
 
 </html>
