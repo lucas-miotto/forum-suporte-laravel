@@ -26,7 +26,6 @@ class AuthController extends Controller
         $user->tokens()->delete();
 
         $token = $user->createToken($request->device_name)->plainTextToken;
-        // Aqui.. Parei nos 18 minutos.
 
         return response()->json([
             'token' => $token,
