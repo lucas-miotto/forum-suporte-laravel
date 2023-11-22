@@ -1,5 +1,0 @@
-Quando finalizar o curso, pegar e comparar os 2 codigos(do crud simples até o curso final). E as diferenças apenas comentar como era feito antes e como foi a atualização. E depois comitar tudo no projeto final.
-
-
-Apos finalizar:
-Pegar um café e ler novamente o codigo por completo.... Olhar tudo que fiz, tudo que alterei e tentar novamente aprender e analisar.
